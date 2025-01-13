@@ -1,0 +1,43 @@
+:root{
+    --cv-head: #4ea0ff;
+    --cv-autor: #37b2e8;
+    --cv-paragraph: #ffff00;
+    --cv-table1: #1fa9e5;
+    --cv-table2: #b1e4f2;
+    --cv-ADS: #919191;
+}
+
+body{
+    margin: 0%;
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+    background-color: var(--cv-head);  
+    background-image: url(./pattern.png) ;
+    background-size: contain;
+}
+
+#booleaner{
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+#aut{
+    color: var(--cv-ADS);
+}
+
+#author{
+    color: var(--cv-autor);
+}
+
+#data{
+    color: var(--cv-ADS);
+    font-size: 11px;
+}
+
+.photo{
+    font-size: 9px;
+}
