@@ -7,8 +7,9 @@
     --cv-ADS: #919191;
 }
 
-body{
-    margin: 0%;
+main{
+    width: 70%;
+    margin: auto;
 }
 
 #logo{
@@ -17,6 +18,12 @@ body{
     background-color: var(--cv-head);  
     background-image: url(./pattern.png) ;
     background-size: contain;
+    margin: 0%;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #booleaner{
@@ -53,8 +60,37 @@ body{
 
 .lore{
     color: white;
+    width: 20%;
 }
 
 .tbody{
     background-color: var(--cv-table2);
+}
+
+#ads{
+    color: var(--cv-ADS);
+}
+
+#imgads{
+    background-image: url(./monitor.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 130px;
+    margin-top:10px;
+}
+
+#imgad{
+    background-image: url(./graph.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 130px;
+    margin-top:10px;
+}
+table{
+    text-align: left;
+   
+}
+
+#ul{
+    padding-inline-start: 20px;
 }
