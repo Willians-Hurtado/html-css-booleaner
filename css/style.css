@@ -45,3 +45,16 @@ body{
 .mark{
     background-color: var(--cv-paragraph);
 }
+
+#tab{
+    background-color: var(--cv-table1);
+    
+}
+
+.lore{
+    color: white;
+}
+
+.tbody{
+    background-color: var(--cv-table2);
+}
