@@ -34,6 +34,8 @@ body{
 
 #aut{
     color: var(--cv-ADS);
+    font-size: 14px;
+    
 }
 
 #author{
