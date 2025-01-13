@@ -1,0 +1,98 @@
+:root{
+    --cv-head: #4ea0ff;
+    --cv-autor: #37b2e8;
+    --cv-paragraph: #ffff00;
+    --cv-table1: #1fa9e5;
+    --cv-table2: #b1e4f2;
+    --cv-ADS: #919191;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+    background-color: var(--cv-head);  
+    background-image: url(../img/pattern.png) ;
+    background-size: contain;
+    margin: 0%;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#booleaner{
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+#aut{
+    color: var(--cv-ADS);
+    font-size: 14px;
+    
+}
+
+#author{
+    color: var(--cv-autor);
+}
+
+#data{
+    color: var(--cv-ADS);
+    font-size: 11px;
+}
+
+.photo{
+    font-size: 9px;
+}
+
+.mark{
+    background-color: var(--cv-paragraph);
+}
+
+#tab{
+    background-color: var(--cv-table1);
+    
+}
+
+.lore{
+    color: white;
+    width: 20%;
+}
+
+.tbody{
+    background-color: var(--cv-table2);
+}
+
+#ads{
+    color: var(--cv-ADS);
+}
+
+#imgads{
+    background-image: url(../css/monitor.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 130px;
+    margin-top:10px;
+}
+
+#imgad{
+    background-image: url(../css/graph.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 130px;
+    margin-top:10px;
+}
+table{
+    text-align: left;
+   
+}
+
+#ul{
+    padding-inline-start: 20px;
+}
