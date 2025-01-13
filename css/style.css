@@ -41,3 +41,7 @@ body{
 .photo{
     font-size: 9px;
 }
+
+.mark{
+    background-color: var(--cv-paragraph);
+}
